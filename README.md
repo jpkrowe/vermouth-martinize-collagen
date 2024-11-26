@@ -6,6 +6,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7361701.svg)](https://doi.org/10.5281/zenodo.7361701)
 [![arXiv](https://img.shields.io/badge/arXiv-2105.05890-b31b1b.svg)](http://arxiv.org/abs/2212.01191)
 
+This program is a slight modification of martinize2 in which new parameters for collagen are included. These include HYP parameters in the CHARMM force field files and martini 3 bonded parameters.
+
 Martinize2 is a rewrite of [Martinize]. It is aimed at producing
 coarse-grained structures and topologies from an atomistic structure. Martinize
 is primarily developed for the [Martini] coarse-grained force field and the

@@ -169,8 +169,8 @@ HYP                1
 
 [ atoms ]
 ;id type resnr residu atom cgnr   charge
- 1    P1   1     HYP     BB     1      0    
- 2    P1   1     HYP     SC1    2      0    
+ 1   SP2a   1     HYP     BB     1      0    
+ 2   SP1    1     HYP     SC1    2      0    
 
 [bonds]
 #meta {"group": "Side chain bonds"}

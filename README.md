@@ -6,7 +6,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7361701.svg)](https://doi.org/10.5281/zenodo.7361701)
 [![arXiv](https://img.shields.io/badge/arXiv-2105.05890-b31b1b.svg)](http://arxiv.org/abs/2212.01191)
 
-This program is a slight modification of martinize2 in which new parameters for collagen are included. These include HYP parameters in the CHARMM force field files and martini 3 bonded parameters.
+This program is a slight modification of martinize2 in which new parameters for collagen are included. These include HYP parameters in the AMBER force field files and martini 3 bonded parameters.
 
 Martinize2 is a rewrite of [Martinize]. It is aimed at producing
 coarse-grained structures and topologies from an atomistic structure. Martinize
@@ -40,7 +40,7 @@ This installs the last released version. You can update an existing installation
 In some cases you may want to experiment with running the latest development version. You can install this version with
 the following command: 
 
-    pip install git+https://github.com/marrink-lab/vermouth-martinize.git#vermouth
+    pip install git+[https://github.com/jpkrowe/vermouth-martinize-collagen.git]#vermouth
 
 Note that vermouth and Martinize2, in particular development versions, may contain bugs that cause it to produce
 incorrect topologies. Check the produced output carefully!

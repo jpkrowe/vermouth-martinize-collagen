@@ -40,7 +40,7 @@ This installs the last released version. You can update an existing installation
 In some cases you may want to experiment with running the latest development version. You can install this version with
 the following command: 
 
-    pip install git+[https://github.com/jpkrowe/vermouth-martinize-collagen.git]#vermouth
+    pip install git+https://github.com/jpkrowe/vermouth-martinize-collagen.git#vermouth
 
 Note that vermouth and Martinize2, in particular development versions, may contain bugs that cause it to produce
 incorrect topologies. Check the produced output carefully!

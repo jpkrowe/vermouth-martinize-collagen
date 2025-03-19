@@ -418,7 +418,7 @@ def convert_dssp_to_martini(sequence):
         residue.
     """
     ss_cg = {'1': 'H', '2': 'H', '3': 'H', 'H': 'H', 'G': 'H', 'I': 'H',
-             'B': 'E', 'E': 'E', 'T': 'T', 'S': 'S', 'C': 'C'}
+             'B': 'E', 'E': 'E', 'T': 'T', 'S': 'S', 'C': 'C', 'F': 'F'}
     patterns = collections.OrderedDict([
         ('.H.', '.3.'), ('.HH.', '.33.'), ('.HHH.', '.333.'),
         ('.HHHH.', '.3333.'), ('.HHHHH.', '.13332.'),
